@@ -62,6 +62,7 @@ offset = 0.11
 scale  = 500
 crs='EPSG:4326'
 
+#Algorithm to divide Ghana into grids of equal length
 minLon,minLat = -3,5
 maxLon,maxLat = -0.02,11
 
