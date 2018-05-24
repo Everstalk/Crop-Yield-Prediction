@@ -92,7 +92,7 @@ with open('Ghana_locations.csv','a') as f:
             grid_no += 1
             writer.writerow([grid_n,grid_no,first,second])
             try:
-                #export_oneimage(img, 'Ghana_temperature', grid+str(grid_no), region, scale, crs)
+                export_oneimage(img, 'Ghana_temperature', grid+str(grid_no), region, scale, crs)
                 first = second
                 second = first + 0.2772
             except:
